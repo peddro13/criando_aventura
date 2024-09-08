@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Em Busca do Livro Misterioso</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+                <img src="img/fotoLogo.jpeg" alt="">
+                <p>Em 2024, acontece mais uma edição do evento Bienal do Livro. Mas nessa edição é especial, onde teremos que achar um livro misterioso! Escolha do dia que você irá para o evento.</p>
+                <button class="btn-proximo" data-proximo="1">Dia 6</button>
+                <button class="btn-proximo" data-proximo="2">Dia 7</button>
+        </div>
+        <div class="passo" id="passo-1">
+                <p>Você começa sua jornada no dia 6, entrando no pavilhão para encontrar a primeira pista.</p>
+                <button class="btn-proximo" data-proximo="3">Procurar a pista no centro</button>
+                <button class="btn-proximo" data-proximo="4">Desistir e ir outro dia</button>
+        </div>
+        <div class="passo" id="passo-2">
+                <p>No dia 7, você visita o estande de uma editora. No estande, uma das pistas indica que para localizar o livro você deve procurar a próxima pista em um bate-papo com uma autora. Em qual bate-papo voce vai?</p>
+                <button class="btn-proximo" data-proximo="5">Alice Oseman</button>
+                <button class="btn-proximo" data-proximo="6">Holly Jackson</button>
+        </div>
+        <div class="passo" id="passo-3">
+                <p>No centro, você encontra uma antiga inscrição apontando que a próxima pista está localizada no estande da Arqueiro.</p>
+                <button class="btn-proximo" data-proximo="7">Seguir para a Arqueiro</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+                <p>Você decide que não é o dia para isso e desiste, mas sempre se pergunta o que teria encontrado no livro.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+                <p>Com a Alice Oseman, você descobre um mapa escondido atrás de um altar, apontando que a próxima pista está no estande da Arqueiro.</p>
+                <button class="btn-proximo" data-proximo="7">Ir para o estande </button>
+        </div>
+
+        <div class="passo" id="passo-6">
+                <p>Conversando com a Holly Jackson, você encontra uma pista, mas ela  é confusa e você demora para desvendar.</p>
+                <button class="btn-proximo" data-proximo="8">Pedir ajuda para entender a dica</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+                <p>No estande, a busca pelo livro misterioso se intensifica. Você se depara com o seu autor favorito.</p>
+                <button class="btn-proximo" data-proximo="9">Falar com o autor</button>
+                <button class="btn-proximo" data-proximo="10">Seguir em busca do livro</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+                <p>Ao pedir ajuda, você entendeu que precisa ir para o estande da Arqueiro.</p>
+                <button class="btn-proximo" data-proximo="7">Seguir para o estande</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+             <img src="img/fotoEstande.jpg" alt="imagem estande" srcset="">   
+            <p>Você conversa com o autor, e no meio da conversa, ele te diz uma pista incrivel! Você precisa seguir para o estande da Companhia das Letras.</p>
+                <button class="btn-proximo" data-proximo="11">Ir para o estande</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+                <p>Você seguiu em frente e ignorou seu autor favorito, mas você não sabia que ele era a peça chave para a proxima dica.</p>
+                <button class="btn-proximo" data-proximo="12">Voltar e falar com o autor</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+                <img src="img/fotoLivro.jpg" alt="livro" srcset="">
+            <p>No estande, você acha o livro misterioso e descobre que era o lançamento de um livro que você estava muito ansioso para ler!</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+                <p>Retomando e falando com o autor, você descobre que precisa ir para o estande da Arqueiro.</p>
+                <button class="btn-proximo" data-proximo="11">Ir para o estande</button>
+        </div>
+</main>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
